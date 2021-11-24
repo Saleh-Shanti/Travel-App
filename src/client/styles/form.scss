@@ -1,0 +1,20 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 5px 20px;
+  width: 90%;
+  line-height: 16px;
+  margin: 10px auto;
+}
+
+#Submit {
+  background-color: #ffbf45;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+}
+#Submit:hover {
+  cursor: pointer;
+}

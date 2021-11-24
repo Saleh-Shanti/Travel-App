@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Travel App</title>
+
+    </head>
+  <body>
+    <header>
+      <div>
+           Travel App
+      </div>
+      <div class="navigation">
+          Menu
+      </div>
+    </header>
+
+    
+         
+      
+    <main>
+      <section class="Book" id="Check-form">
+        <form class="" >
+          <fieldset>
+            <legend>Enter The country you want to visit</legend>
+            <input id="Country" type="text" name="input"  placeholder="country" required>
+            <label for="start-date">From Date :</label>
+            <input type="date" name="start-date" id="startDate" required>
+            <label for="end-date">To :</label>
+            <input type="date" name="end-date" id="endDate" required>
+            <input type="submit"  value="Check" class="btn" id="Submit">
+          </fieldset>
+        </form>  
+
+        </section>
+    
+        <section class="result hide">
+          <div class="title"><h2 class="Country-name"></h2>
+            <hr>
+          <div id="img"><img src="" alt="" id="image">
+         
+              
+          </div>
+           
+          
+          </div>
+         
+          
+          <div class="weather">
+          
+          </div>
+
+          <div class="">
+            <button type="submit" value="Cancel" class="backBtn">X</button>
+          </div>
+          </section>
+
+          
+    </main>
+  
+    <footer>
+        <p>SALEH SHANTI &copy;</p>
+    </footer>
+
+
+
+  <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script> 
+  </body>
+</html>
+
+    

@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: rgba(32, 166, 255, 0.877);
+}
+.logo,
+.navigation:hover {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
