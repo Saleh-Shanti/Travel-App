@@ -62,7 +62,7 @@ fetch ('http://localhost:8081/result', {
                   status:"",
                   degree:""
                 };
-                newData.date=e.weather.icon
+                newData.icon=e.weather.icon
                 newData.date=e.datetime
                 newData.status=e.weather.description
                 newData.degree=e.temp

@@ -33,7 +33,7 @@ const createDiv=(data)=>
    const status=document.createElement('span');
    const degree=document.createElement('span');
   
-   icon.src="../images/icons/"+data.icon;
+   icon.src="/src/client/images/icons/"+data.icon+".png";
    date.innerText=data.date;
    status.innerText=data.status;
    degree.innerText=data.degree;
@@ -72,7 +72,7 @@ const update = (countryName,DiffDays,data,image,defImg) =>
 
   coverImg.style.backgroundrepeat= "no-repeat";
   coverImg.style.backgroundSize= 'cover';
-
+//console.log(data);
 // Update the daily weather cards
   const weather=document.querySelector('.weather');
 
