@@ -72,7 +72,7 @@ const update = (countryName,DiffDays,data,image,defImg) =>
 
   coverImg.style.backgroundrepeat= "no-repeat";
   coverImg.style.backgroundSize= 'cover';
-//console.log(data);
+
 // Update the daily weather cards
   const weather=document.querySelector('.weather');
 
