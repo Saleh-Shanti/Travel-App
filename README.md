@@ -17,7 +17,8 @@
 - run 2 terminals :
 
   - npm run build-dev
-  - npm run vuild-prod npm run start
+  - npm run build-prod
+  - npm run start
 
 - Write the place you are going to visit
 - insert the dates
